@@ -15,3 +15,15 @@
  */
 
  @import "bootstrap";
+
+ .brand-color {
+  color: blue !important;
+  font-size: 40px;
+ }
+
+ .navbar {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background: image_url('witewall_3.png');
+}
