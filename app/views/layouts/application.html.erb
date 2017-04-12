@@ -22,8 +22,10 @@
               <%= link_to 'See All Courses', courses_path %>
             </li>
           </ul>
-          <br />
-          <ul class="navbar-nav">
+        </div>
+        <br>
+          
+          <ul class="navbar-nav" id="sign_out_size">
             <% if user_signed_in? %>
               <li class="nav-item">
                 <%= link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'nav-link' %>
@@ -38,6 +40,7 @@
       </nav>
 
 
+
       <% if notice.present? %>
         <p class="alert alert-info"><%= notice %></p>
       <% end %>
@@ -47,6 +50,7 @@
           
     <%= yield %>
     </div>
+    
 
     <div id="footer">
       <div class="container">
