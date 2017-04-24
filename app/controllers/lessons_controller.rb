@@ -3,7 +3,7 @@ class LessonsController < ApplicationController
   end
 
 
-  Private
+  private
 
   helper_method :current_lesson
   def current_lesson
