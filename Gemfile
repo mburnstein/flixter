@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 
+gem "mini_magick"
 gem "fog"
 gem "figaro"
 gem 'carrierwave', '~> 1.0'
