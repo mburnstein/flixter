@@ -10,6 +10,7 @@ gem "mini_magick"
 gem "fog"
 gem "figaro"
 gem 'carrierwave', '~> 1.0'
+gem 'carrierwave-aws'
 gem 'devise'
 gem 'simple_form'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
