@@ -87,3 +87,26 @@ body {
 #sign_out_size {
   width: 100px;
 }
+
+.lesson {
+  background-color: black;
+  margin-top: 10px;
+  height: 130px;
+  font-size: 15px;
+}
+
+.section {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+}
+
+.lesson a {
+  color: white;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+}
+
+.lesson a b {
+  font-weight: 100;
+  font-size: 25px;
+}
