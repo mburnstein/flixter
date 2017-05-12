@@ -1,0 +1,10 @@
+                                                         Table "public.enrollments"
+   Column   |            Type             |                        Modifiers                         | Storage | Stats target | Description 
+------------+-----------------------------+----------------------------------------------------------+---------+--------------+-------------
+ id         | integer                     | not null default nextval('enrollments_id_seq'::regclass) | plain   |              | 
+ created_at | timestamp without time zone | not null                                                 | plain   |              | 
+ updated_at | timestamp without time zone | not null                                                 | plain   |              | 
+Indexes:
+    "enrollments_pkey" PRIMARY KEY, btree (id)
+Has OIDs: no
+
